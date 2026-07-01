@@ -25,7 +25,7 @@
       channelAvatar:
         params.get("avatar") ||
         fileConfig.channelAvatar ||
-        "assets/channel-avatar.png",
+        "",
       titleSubtitle:
         params.has("subtitle")
           ? params.get("subtitle")
@@ -41,12 +41,20 @@
     const avatar = String(config.channelAvatar).trim();
 
     if (channelName) {
-      channelName.textContent = name || "Название канала";
+      channelName.textContent = name;
+      channelName.hidden = !name;
     }
 
-    if (channelAvatar && avatar) {
-      channelAvatar.src = avatar;
-      channelAvatar.alt = name ? `Аватар канала ${name}` : "Аватар канала";
+    if (channelAvatar) {
+      if (avatar) {
+        channelAvatar.src = avatar;
+        channelAvatar.alt = name ? `Аватар канала ${name}` : "Аватар канала";
+        channelAvatar.hidden = false;
+      } else {
+        channelAvatar.removeAttribute("src");
+        channelAvatar.alt = "";
+        channelAvatar.hidden = true;
+      }
     }
 
     channelAnchor.hidden = !name && !avatar;

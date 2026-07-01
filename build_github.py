@@ -31,7 +31,6 @@ SE_IMAGE_FIELDS = {
     "layerCatBody": "cat-body-cutout.png",
     "layerCatHead": "cat-head-cutout.png",
     "layerAlice": "alice-cutout.png",
-    "channelAvatar": "channel-avatar.png",
 }
 
 

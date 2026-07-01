@@ -14,6 +14,5 @@ StreamElements — вставь widget-github.json во вкладку FIELDS:
   layerCatBody: https://raw.githubusercontent.com/PsychicMonkey-tw/twitch-starting-soon-tenniel/main/docs/assets/cat-body-cutout.png
   layerCatHead: https://raw.githubusercontent.com/PsychicMonkey-tw/twitch-starting-soon-tenniel/main/docs/assets/cat-head-cutout.png
   layerAlice: https://raw.githubusercontent.com/PsychicMonkey-tw/twitch-starting-soon-tenniel/main/docs/assets/alice-cutout.png
-  channelAvatar: https://raw.githubusercontent.com/PsychicMonkey-tw/twitch-starting-soon-tenniel/main/docs/assets/channel-avatar.png
 
 HTML / CSS / JS — как обычно из streamelements/out/

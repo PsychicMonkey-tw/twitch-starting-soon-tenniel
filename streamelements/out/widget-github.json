@@ -41,7 +41,7 @@
     "type": "image-input",
     "label": "Аватар канала",
     "group": "Канал",
-    "value": "https://raw.githubusercontent.com/PsychicMonkey-tw/twitch-starting-soon-tenniel/main/docs/assets/channel-avatar.png"
+    "value": ""
   },
   "titleSubtitle": {
     "type": "text",

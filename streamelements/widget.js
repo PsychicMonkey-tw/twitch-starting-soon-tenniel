@@ -15,11 +15,19 @@
 
     if (channelName) {
       channelName.textContent = name;
+      channelName.hidden = !name;
     }
 
     if (channelAvatar) {
-      channelAvatar.src = avatar;
-      channelAvatar.alt = name ? `Аватар канала ${name}` : "Аватар канала";
+      if (avatar) {
+        channelAvatar.src = avatar;
+        channelAvatar.alt = name ? `Аватар канала ${name}` : "Аватар канала";
+        channelAvatar.hidden = false;
+      } else {
+        channelAvatar.removeAttribute("src");
+        channelAvatar.alt = "";
+        channelAvatar.hidden = true;
+      }
     }
 
     if (channelAnchor) {
