@@ -1,9 +1,16 @@
 /**
- * Twitch Browser Source — Starting Soon (Tenniel)
- * Вписывает кадр 1920×1080 целиком в окно (без обрезки).
+ * Starting Soon (Tenniel) — OBS / Browser Source, 1920×1080
+ *
+ * Настройки (ниже): channelName, channelAvatar, titleSubtitle
+ * Или URL: ?name=Канал&avatar=assets/my.png&subtitle=Текст
  */
-
 (function () {
+  const STREAM_CONFIG = {
+    channelName: "",
+    channelAvatar: "",
+    titleSubtitle: "",
+  };
+
   const screen = document.querySelector(".screen");
   const catHead = document.querySelector(".layer-cat-head");
   const alice = document.querySelector(".layer-alice");
@@ -14,22 +21,21 @@
 
   function readConfig() {
     const params = new URLSearchParams(window.location.search);
-    const fileConfig = window.STREAM_CONFIG || {};
 
     return {
       channelName:
         params.get("name") ||
         params.get("channel") ||
-        fileConfig.channelName ||
+        STREAM_CONFIG.channelName ||
         "",
       channelAvatar:
         params.get("avatar") ||
-        fileConfig.channelAvatar ||
+        STREAM_CONFIG.channelAvatar ||
         "",
       titleSubtitle:
         params.has("subtitle")
           ? params.get("subtitle")
-          : fileConfig.titleSubtitle ?? "",
+          : STREAM_CONFIG.titleSubtitle ?? "",
     };
   }
 
