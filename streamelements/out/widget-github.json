@@ -11,37 +11,37 @@
     "type": "image-input",
     "label": "Фон (лес)",
     "group": "Слои",
-    "value": "https://raw.githubusercontent.com/ewpetrashov/twitch-starting-soon-tenniel/main/docs/assets/background.jpg"
+    "value": "https://raw.githubusercontent.com/PsychicMonkey-tw/twitch-starting-soon-tenniel/main/docs/assets/background.jpg"
   },
   "layerCatBody": {
     "type": "image-input",
     "label": "Кот — тело",
     "group": "Слои",
-    "value": "https://raw.githubusercontent.com/ewpetrashov/twitch-starting-soon-tenniel/main/docs/assets/cat-body-cutout.png"
+    "value": "https://raw.githubusercontent.com/PsychicMonkey-tw/twitch-starting-soon-tenniel/main/docs/assets/cat-body-cutout.png"
   },
   "layerCatHead": {
     "type": "image-input",
     "label": "Кот — голова",
     "group": "Слои",
-    "value": "https://raw.githubusercontent.com/ewpetrashov/twitch-starting-soon-tenniel/main/docs/assets/cat-head-cutout.png"
+    "value": "https://raw.githubusercontent.com/PsychicMonkey-tw/twitch-starting-soon-tenniel/main/docs/assets/cat-head-cutout.png"
   },
   "layerAlice": {
     "type": "image-input",
     "label": "Алиса",
     "group": "Слои",
-    "value": "https://raw.githubusercontent.com/ewpetrashov/twitch-starting-soon-tenniel/main/docs/assets/alice-cutout.png"
+    "value": "https://raw.githubusercontent.com/PsychicMonkey-tw/twitch-starting-soon-tenniel/main/docs/assets/alice-cutout.png"
   },
   "channelName": {
     "type": "text",
     "label": "Название канала",
     "group": "Канал",
-    "value": "Psychic Monkey"
+    "value": ""
   },
   "channelAvatar": {
     "type": "image-input",
     "label": "Аватар канала",
     "group": "Канал",
-    "value": "https://raw.githubusercontent.com/ewpetrashov/twitch-starting-soon-tenniel/main/docs/assets/channel-avatar.png"
+    "value": "https://raw.githubusercontent.com/PsychicMonkey-tw/twitch-starting-soon-tenniel/main/docs/assets/channel-avatar.png"
   },
   "titleSubtitle": {
     "type": "text",

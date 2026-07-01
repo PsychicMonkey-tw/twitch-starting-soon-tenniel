@@ -35,7 +35,7 @@
     "type": "text",
     "label": "Название канала",
     "group": "Канал",
-    "value": "Название канала"
+    "value": ""
   },
   "channelAvatar": {
     "type": "image-input",

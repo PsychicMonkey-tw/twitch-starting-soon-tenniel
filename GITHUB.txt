@@ -1,7 +1,7 @@
 GITHUB — ссылки для StreamElements и OBS
 ============================================
 
-Превью (GitHub Pages): https://ewpetrashov.github.io/twitch-starting-soon-tenniel/
+Превью (GitHub Pages): https://PsychicMonkey-tw.github.io/twitch-starting-soon-tenniel/
 Включи: Settings → Pages → Branch main → Folder /docs
 
 OBS Browser Source — вставь URL Pages (без SE).
@@ -10,10 +10,10 @@ StreamElements — вставь widget-github.json во вкладку FIELDS:
   streamelements/out/widget-github.json
 
 Или вручную raw-ссылки на картинки:
-  layerBackground: https://raw.githubusercontent.com/ewpetrashov/twitch-starting-soon-tenniel/main/docs/assets/background.jpg
-  layerCatBody: https://raw.githubusercontent.com/ewpetrashov/twitch-starting-soon-tenniel/main/docs/assets/cat-body-cutout.png
-  layerCatHead: https://raw.githubusercontent.com/ewpetrashov/twitch-starting-soon-tenniel/main/docs/assets/cat-head-cutout.png
-  layerAlice: https://raw.githubusercontent.com/ewpetrashov/twitch-starting-soon-tenniel/main/docs/assets/alice-cutout.png
-  channelAvatar: https://raw.githubusercontent.com/ewpetrashov/twitch-starting-soon-tenniel/main/docs/assets/channel-avatar.png
+  layerBackground: https://raw.githubusercontent.com/PsychicMonkey-tw/twitch-starting-soon-tenniel/main/docs/assets/background.jpg
+  layerCatBody: https://raw.githubusercontent.com/PsychicMonkey-tw/twitch-starting-soon-tenniel/main/docs/assets/cat-body-cutout.png
+  layerCatHead: https://raw.githubusercontent.com/PsychicMonkey-tw/twitch-starting-soon-tenniel/main/docs/assets/cat-head-cutout.png
+  layerAlice: https://raw.githubusercontent.com/PsychicMonkey-tw/twitch-starting-soon-tenniel/main/docs/assets/alice-cutout.png
+  channelAvatar: https://raw.githubusercontent.com/PsychicMonkey-tw/twitch-starting-soon-tenniel/main/docs/assets/channel-avatar.png
 
 HTML / CSS / JS — как обычно из streamelements/out/
