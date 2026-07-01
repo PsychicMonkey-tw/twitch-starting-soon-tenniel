@@ -39,12 +39,19 @@
     };
   }
 
+  function isValidAvatarUrl(url) {
+    const value = String(url || "").trim();
+    return Boolean(value) && !value.includes("{{");
+  }
+
   function applyChannelConfig() {
     if (!channelAnchor) return;
 
     const config = readConfig();
     const name = String(config.channelName).trim();
-    const avatar = String(config.channelAvatar).trim();
+    const avatar = isValidAvatarUrl(config.channelAvatar)
+      ? String(config.channelAvatar).trim()
+      : "";
 
     if (channelName) {
       channelName.textContent = name;
@@ -63,7 +70,7 @@
       }
     }
 
-    channelAnchor.hidden = !name && !avatar;
+    channelAnchor.classList.toggle("is-hidden", !name && !avatar);
   }
 
   function applyTitleSubtitle() {
