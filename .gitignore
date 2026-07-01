@@ -1,0 +1,9 @@
+.DS_Store
+__pycache__/
+*.pyc
+assets/*-greenscreen.png
+assets/cat-body-redraw-greenscreen.png
+assets/scene-base.jpg
+assets/alice.png
+assets/cat-head.png
+assets/cat-body.png

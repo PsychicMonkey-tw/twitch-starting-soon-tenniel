@@ -1,0 +1,58 @@
+{
+  "widgetName": {
+    "type": "hidden",
+    "value": "Tenniel Starting Soon"
+  },
+  "widgetAuthor": {
+    "type": "hidden",
+    "value": "Psychic Monkey"
+  },
+  "layerBackground": {
+    "type": "image-input",
+    "label": "Фон (лес)",
+    "group": "Слои",
+    "value": ""
+  },
+  "layerCatBody": {
+    "type": "image-input",
+    "label": "Кот — тело",
+    "group": "Слои",
+    "value": ""
+  },
+  "layerCatHead": {
+    "type": "image-input",
+    "label": "Кот — голова",
+    "group": "Слои",
+    "value": ""
+  },
+  "layerAlice": {
+    "type": "image-input",
+    "label": "Алиса",
+    "group": "Слои",
+    "value": ""
+  },
+  "channelName": {
+    "type": "text",
+    "label": "Название канала",
+    "group": "Канал",
+    "value": "Название канала"
+  },
+  "channelAvatar": {
+    "type": "image-input",
+    "label": "Аватар канала",
+    "group": "Канал",
+    "value": ""
+  },
+  "titleSubtitle": {
+    "type": "text",
+    "label": "Подпись под заголовком",
+    "group": "Текст",
+    "value": ""
+  },
+  "catQuote": {
+    "type": "text",
+    "label": "Цитата кота",
+    "group": "Текст",
+    "value": "Мы все здесь немного сумасшедшие…"
+  }
+}
