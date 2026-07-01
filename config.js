@@ -10,7 +10,7 @@
  *   titleSubtitle: "Заглядывайте в чат — скоро будем"
  */
 window.STREAM_CONFIG = {
-  channelName: "Название канала",
+  channelName: "Psychic Monkey",
   channelAvatar: "assets/channel-avatar.png",
   titleSubtitle: "",
 };
